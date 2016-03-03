@@ -13,15 +13,33 @@
  
  
  /*base layout styles*/
-   .wrapper {
-	width: 70%;  
-	margin: 0 auto;  
+  * {
+	  
+	   box-sizing: border-box;
+	   
   }
-  
+ 
+   h1 {
+	background-color: #fff;
+	border : 1px solid black;   
+   
+   }
+   
+   ul li {
+		background-color: #fff;
+		border : 1px solid black;   
+   
+   }
+ 
+ 
+   .container {
+	 padding-left: 1em;
+	 padding-right: 1em;
+  }
   
   .main_head {
 	background-color: rgb( 234, 114 , 93 );
-	  
+	  padding: 1em 0;
 	  
   }
   
@@ -31,4 +49,15 @@
   
   .main_footer {
 	 background-color: rgb( 234, 114 , 93 ); 
+  }
+  
+  /*mediq query for portable device*/
+  
+  @media (min-width: 320px ) {
+	 .container { 
+	 width: 70%;  
+	 max-width: 1000px;
+	margin: 0 auto;  
+	
+	 }
   }
