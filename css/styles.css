@@ -12,8 +12,13 @@
  }
  
  
- /*background styles*/
- 
+ /*base layout styles*/
+   .wrapper {
+	width: 70%;  
+	margin: 0 auto;  
+  }
+  
+  
   .main_head {
 	background-color: rgb( 234, 114 , 93 );
 	  
