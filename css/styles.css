@@ -12,4 +12,18 @@
  }
  
  
- /*                */
+ /*background styles*/
+ 
+  .main_head {
+	background-color: rgb( 234, 114 , 93 );
+	  
+	  
+  }
+  
+  .contact {
+	background-color: rgb(  );
+  }
+  
+  .main_footer {
+	 background-color: rgb( 234, 114 , 93 ); 
+  }
