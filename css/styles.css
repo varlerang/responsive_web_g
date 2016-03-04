@@ -19,17 +19,17 @@
 	   
   }
  
-   h1 {
-	background-color: #fff;
-	border : 1px solid black;   
    
-   }
-   
-   ul li {
+   .name,
+   .main_nav li {
 		background-color: #fff;
 		border : 1px solid black;   
-   
+        border-radius: 5px;
+		text-align: center;
    }
+ 
+ 
+ 
  
  
    .container {
@@ -60,4 +60,21 @@
 	margin: 0 auto;  
 	
 	 }
+	 
+	 
+	 
+	 .main_nav li {
+		display:block; 
+	 }
   }
+  
+   @media (min-width: 1024px ) {
+	   .name,
+   .main_nav li { 
+       
+	   display: inline-block;
+	   
+   }
+      
+	   
+   }
