@@ -18,18 +18,30 @@
 	   box-sizing: border-box;
 	   
   }
- 
+    .name {
+	 text-decoration: none;	
+	}
    
    .name,
    .main_nav li {
 		background-color: #fff;
-		border : 1px solid black;   
+		border : 1px solid black;
+		padding: 15px 10px;   
         border-radius: 5px;
 		text-align: center;
+		
    }
  
- 
- 
+    .main_nav a {
+		display: block;
+		text-decoration: none;
+		color: black;
+	}
+    
+	.main_nav a:hover {
+	  
+		
+	}
  
  
    .container {
@@ -38,7 +50,7 @@
   }
   
   .main_head {
-	background-color: rgb( 234, 114 , 93 );
+	background-color: rgb(255, 253, 253);
 	  padding: 1em 0;
 	  
   }
