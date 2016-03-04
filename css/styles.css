@@ -19,10 +19,14 @@
 	   
   }
     .name {
-	 text-decoration: none;	
+		text-align: center;
+	}
+	
+	.main_nav li {
+	 font-size: 1.2em;	
 	}
    
-   .name,
+
    .main_nav li {
 		background-color: #fff;
 		border : 1px solid black;
