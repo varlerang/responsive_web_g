@@ -3,7 +3,10 @@
 
 
 /*Normalize Process*/
-
+  * {
+	box-sizing: border-box;  
+	}
+	
  ul,
  ol {
 	 list-style: none;
@@ -19,42 +22,37 @@
 	   
   }
     .name {
-		text-align: center;
+		font-size: 1.25em;
 	}
-	
+	.name,
 	.main_nav li {
+	 border: 1px solid black;
+     text-align: center;
 	 font-size: 1.2em;	
+	 background-color: #fff;
+	 margin-top: 6px;
+	 margin-bottom: 6px;
 	}
    
 
-   .main_nav li {
-		background-color: #fff;
-		border : 1px solid black;
-		padding: 15px 10px;   
-        border-radius: 5px;
-		text-align: center;
-		
-   }
+  
  
     .main_nav a {
+		font-size: .95em;
 		display: block;
 		text-decoration: none;
 		color: black;
 	}
     
-	.main_nav a:hover {
-	  
-		
-	}
- 
- 
+	
    .container {
 	 padding-left: 1em;
 	 padding-right: 1em;
   }
   
   .main_head {
-	background-color: rgb(255, 253, 253);
+	  
+	background-color: rgb(255, 300, 253);
 	  padding: 1em 0;
 	  
   }
@@ -84,13 +82,26 @@
 	 }
   }
   
-   @media (min-width: 1024px ) {
+   @media (min-width: 768px ) {
+	  .main_head {
+		text-align: center;  
+	  }
 	   .name,
    .main_nav li { 
        
 	   display: inline-block;
 	   
    }
-      
+   
+   }
+   
+   @media (min-width: 1024px ) {
 	   
+   		 .name,
+	   .main_nav,
+      .main_nav li {
+		  display: inline-block;  
+	  }
+   
+   
    }
