@@ -23,35 +23,27 @@
   * {
 	  
 	   box-sizing: border-box;
-	   
-  }
+	 }
   
     #wrap {
 	 width: 100%;	
 	}
+	
     .name {
 		font-size: 1.25em;
-		
 		}
 		
-	.main_nav {
-	 text_align: center;
-	 	
-	}
 	.main_nav li {
 	 border: 1px solid black;
      
 	 font-size: 1.2em;	
 	 background-color: #fff;
-	 padding: 15px 20px;
-	 margin-top: 6px;
-	 margin-bottom: 6px;
+	 padding: 4px 20px;
+	 margin-top: 4px;
+	 margin-bottom: 4px;
 	}
 	
-	
-  
- 
-    .main_nav a {
+	.main_nav a {
 		font-size: .95em;
 		display: block;
 		text-decoration: none;
@@ -67,18 +59,13 @@
   }
   
   .main_head {
-	  text-align:center;
 	background-color: rgb(221, 225, 220);
 	  padding: 1em 0;
 	  width: 100%;
 	  
   }
   
-  .contact {
-	background-color: rgb(  );
-  }
-  
-  .main_footer {
+	.main_footer {
 	 background-color: rgb( 234, 114 , 93 ); 
   }
   
@@ -88,21 +75,26 @@
 	 
 	    
 	   
+	   
 	 .container { 
-	 width: 70%;  
+	 width: 60%;  
 	 max-width: 1000px;
 	margin: 0 auto;  
 	
 	 }
-	 
-	 
+	    .name,
+	   .main_nav li {
+		text-align: center;   
+	   }
+	   
+	  
   }
   
    @media (min-width: 768px ) {
 	 
 	  
 	  .container {
-		width: 80%
+		width: 80%;
 		max-width: 1150px;
 		margin: 0 auto;  
 	  }
@@ -122,22 +114,20 @@
    
    @media (min-width: 1024px ) {
 	   
+	   
 	 
 	    .container {
-		width: 100%
-		height: 100%
-		max-width: 1450px;
+		width: 100%;
+		
+		
+		
+		max-width: 1280px;
 		margin: 0 auto;  
 	  }
 	  
-	   	.main_head {
-		 width: 100%;	
-		 height: 100%;
-		}
+	   	
 		
-		.main_head p {
-		 text-align: left;	
-		}
+		
 			 
 	    .name,
 	   .main_nav,
@@ -145,48 +135,39 @@
 		  display: inline-block;
 		  margin-top: 6px;
 		  margin-bottom: 6px;
-		  margin-left: 15px;
-		 
-	 }
-	 
-	   .main_nav,
-	   .main_nav li {
-		 float: right;   
-	   }
-	  
-	    .name {
-			text-align: left;
-			margin-right: 340px;
-			padding: 30px 20px;
-			
+		  margin-left: 10px;
 	}
-	
-	   .profile p {
-		float: left;
-		 width: 50%;
-		 margin-bottom: 10px;
-		 margin-right: 30px;
-		    
-	   }
-		
+	  .name {
+		  float: left;
+		  margin-top: 30px;
+	  }
+	  .main_nav {
+		  margin-left: 510px;
+	  }
 	 
-	
-	 .me {
-		 
-		padding: 10px;
-		margin: 20px 10px;
-		
-		float: right;
-		
-		 
-	 } 
+	  .me {
+		  display: inline-block;
+		  margin-left: 900px;
+		  padding: 70px 20px; 
+		  float: left;
+		  
+	  }
+	 
+	  .profile  {
+		  width: 30%;
+		  text-align: left;
+		  margin-left: 95px;
+		 float: left;
+		   
+	  }
 	  
+	
 	 
    }
    
     .clearfix:after {
 	 content: "";
-	 display: table;
+	 display: block;
 	 clear: both;	
 		
 		
