@@ -33,7 +33,7 @@
 	
     .name {
 		font-size: 1.25em;
-		margin: 0;
+		margin: 0 auto;
 		}
 		
 	.main_nav li {
@@ -43,7 +43,8 @@
 	 font-size: .75em;	
 	 font-weight: bold;
 	 background-color: #fff;
-	 padding: 4px 20px;
+	 padding: 8px 20px;
+	 
 	 
 
 	}
@@ -58,18 +59,19 @@
 	
     
 	 
-   .container {
+   .img_container {
 	 padding-left: 1em;
 	 padding-right: 1em;
   }
   
   .main_head {
+	 
 	  	color: #3a3a3a;
 
 	  padding-top: 1.5em;
 	  padding-bottom: 1.5em;
 	  margin-bottom:20px;
-	  width: 100%;
+	
 }
   
    p {
@@ -80,6 +82,24 @@
 	 background-color: rgb( 234, 114 , 93 ); 
   }
   
+  
+   .title {
+		  text-align: center;
+		  font-size: 1em;
+	  }
+	  
+	  .contact {
+		  text-align: center;
+		  font-size: 1em;
+		  
+	  }
+	   .me,
+	  .pics img {
+		  max-width: 100%;
+	  }
+	  
+	  
+	  
   /*mediq query for portable device*/
   
   @media (min-width: 320px ) {
@@ -93,42 +113,93 @@
 	margin: 0 auto;  
 	
 	 }
+	     .name,
+	    .main_nav {
+		 text-align: center;	
+		}
+	   
 	    .name,
+		.main_nav,
 	   .main_nav li {
-		text-align: center;   
+		display: block;  
 	   }
 	   
-	  
+	   .me {
+		   position: relative;
+		   padding: 50px 50px 10px;
+		   margin-left: 50px;
+		   width: 80%;
+	   }
+	   
+	    .profile p {
+		  width: 60%;
+		  text-align: center;
+		  margin-left: 100px;
+		  
+			
+		}
+	    
+
+  
   }
+  
   
    @media (min-width: 768px ) {
 	 
 	  
 	  .img_container {
-		width: 80%;
+		
 		max-width: 1150px;
 		margin: 0 auto;  
 	  }
-	  
-	   .main_head {
-		   width: 
-		text-align: center;   
-	   }
-
-	   .name,
-	   .main_nav,
-   .main_nav li { 
+	     .main_head {
+			 border: 1px solid black;
+			 margin: 0 auto;
+		 }
+	     .nav_con {
+			 width: 80%;
+			text-align:center;
+			margin: 0 auto;
+			margin-bottom: 15px;
+		 }
+  
+     
+	     .name,
+		 .main_nav li {
+		  
+		  display: inline-block;
+		  padding: 10px 10xpx;
+		  margin: 5px 0;
+		
+		  }
        
-	   display: inline-block;
-	   
+		.profile {
+			width: 70%;
+			height: 280px;
+			border: 1px solid black;
+			margin: 0 auto;
+			padding: 1em;
+		}
+		
+		.me {
+			position: relative;
+		  	width: 50%;
+			left: 270px;
+			padding: 1em;
+			
+		}
+		
+		.profile p {
+		 position: relative;
+		 right: 100px;
+		 bottom: 230px;	
+		 width: 50%;
+		 padding: 1em;
+		 text-align: left;
+		}
+		 
    }
    
-     .me {
-		 display: block;
-		 
-        
-   }
-   }
    
    @media (min-width: 1024px ) {
 	   
@@ -144,8 +215,9 @@
 		
 	    .nav_con {
 			border: 1px solid black;
-	   	width: 50%;
+	   	width: 100%;
 		margin: 0 auto;
+		padding: 1em 1em;
 			
 		}
 		
@@ -154,24 +226,20 @@
 		  .name,
 		 .main_nav,
 		.main_nav li {
-		  
 		  display: inline-block;
-		  
 		  padding: 10px 10xpx;
-		  margin: 5px 0;
-		  margin-left: 5px;
-		  }
-	  
-	    .main_nav {
-			margin-left: 410px;
 		}
-	
+		  
+	   .name {
+		  margin-right: 500px;
+	   }
+	   
 	   
 	   .profile  {
-		  
-	      border: 1px solid black;
+		 
+	      border: 1px solid tomato;
 		  margin: 0 auto;
- 		  width: 50%;
+ 		  width: 100%;
 		  padding-left: 1em;
 		  padding-right: 1em;
 		  padding-top:2em;
@@ -179,24 +247,20 @@
 		  
 		  }
 		 
-	       p {
+	      .profile p {
 		   position: relative;
 		   text-align: left;
-		   width: 40%;
-		   bottom: 70px;
+		   line-height: 1.2em;
+		  
+		  
         }
 		  
 	     
 		  
-		.me {
-		   position: relative;
-           left: 570px;
-	     }
+		
 	     
 		
-	  .title {
-		  text-align: center;
-	  }
+	 
 	
 	 
    }
