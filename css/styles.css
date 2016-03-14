@@ -26,6 +26,7 @@
 	 }
        body {
 		   font-family: Helvetica, Arial, Optima;
+		   background-color: rgb(255, 255, 252 );
 	   }
     #wrap {
 	 width: 100%;	
@@ -78,9 +79,7 @@
 	font-size: 1em;
 	line-height:  1.2em;   
    }
-	.main_footer {
-	 background-color: rgb( 234, 114 , 93 ); 
-  }
+	
   
   
    .title {
@@ -103,13 +102,18 @@
 	    
 		  text-align: center;
 	  }
-	  
 	   
+	   .img_container p {
+		   margin: 25px 0;
+	   }
 	   
-	  
-		  
-	  
-	  
+	  .main_footer {
+	 		color: #3a3a3a; 
+  		}
+		
+			 .img_container img {
+			margin-bottom: 40px;
+		}
 	  
   /*mediq query for portable device*/
   
@@ -174,15 +178,31 @@
 			}
 			
 			.main_footer {
+		     
 			 width: 100%;	
 			 margin: 0 auto;
 			}
 			
-			 .main_footer p,
-			 .main_footer ul,
-			 .main_footer li {
-			  display: inline-block;	
-			}
+			.main_footer ul {
+			
+			visibility:hidden;
+			
+		}
+	  
+		 .main_footer p {
+			 position: relative;
+			 margin: 0 auto;
+			 padding: 1.5em 0;
+		     left: 125px;
+		 }
+	     
+		  #button {
+			  position: relative;
+			  bottom: 47px;    
+		      left: 285px;
+			  border-radius: 5px;
+			  border: 1px solid grey;
+ 
   }
   
   
