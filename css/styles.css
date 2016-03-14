@@ -26,7 +26,7 @@
 	 }
        body {
 		   font-family: Helvetica, Arial, Optima;
-		   background-color: rgb(255, 255, 252 );
+		   background-color: rgb( 247, 248, 247 );
 	   }
     #wrap {
 	 width: 100%;	
@@ -208,8 +208,10 @@
 			  position: relative;
 			  bottom: 47px;    
 		      left: 285px;
+			  background-color: #fff;
 			  border-radius: 5px;
-			  border: 1px solid grey;
+			  border: 1px solid #fff;
+			
  
   }
   
