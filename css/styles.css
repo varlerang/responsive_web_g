@@ -423,22 +423,27 @@
 		  
 		 
 	       .profile  p {
+			font-size: 1.25rem;   
 	      text-align: left;
 		  margin-left: 55px;
-		  padding: 2px 1px;
-		  width: 40%
+		  padding: 2px 0;
+		  width: 46%
 		 }
 		 
 		
 		  
 		  .me {
+			  margin-top: 25px;
 			  margin-right: 55px;
 			  width: 40%;
 		  }
 	    
 		 .title {
+			 font-size: 0.875rem;
 			 margin-top: 48px;
 			 padding: 4px 0;
+			 letter-spacing: .03em;
+			 text-transform: uppercase;
 		 }
 	         
 			 .pics p {
@@ -459,6 +464,7 @@
 		  }
 		  
 	   .low_para {
+		   font-size: 1.25rem;
 		   padding: 10px 0;
 		   line-height:1.25em;
 			 
