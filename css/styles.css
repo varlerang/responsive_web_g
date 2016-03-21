@@ -469,6 +469,14 @@
 		   line-height:1.25em;
 			 
 	   }
+	   
+	   
+	   
+	   
+	   
+	    #button {
+			display: none;	
+		}
 	 }
    
     .clearfix::after {
