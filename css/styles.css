@@ -179,9 +179,10 @@
 	   
 	   
 	   .me {
+		  
 		   margin-left:50px;
-		   margin-top: 10px;
-		   padding: 2px 2px;
+		   margin-top: 5px;
+		   padding: 2px 1px;
 		   
 		   max-width: 60%;
 	   }
@@ -317,8 +318,10 @@
 			display: inline-block;
 			float: right;
 			width: 40%;
-		    margin-top: 5px;
-		     padding: 1em;
+		   max-width:40%;
+		   margin-top: 17px;
+		   margin-bottom: 50px;
+		   margin-right: 15px;
 			
 		}
 		
@@ -328,9 +331,10 @@
 		.profile p {
 			display: inline-block;
 			float: left;
-		margin-right: 10px;
-		width:40%;
+		margin-left:18px;
+		width:49%;
 		text-align: left;
+		padding: 0 2px;
 		}
 		 
 		
@@ -351,14 +355,14 @@
      @media (min-width: 1024px ) {
 	   
 	      #wrap {
-			 width: 90%;
+			 width: 100%;
 			 margin: 0 auto;
-			 max-width: 1280px;
+			 max-width: 1100px;
 		  }
 	 
 	    .img_container {
 		width: 100%;
-		max-width: 1280px;
+		max-width: 1100px;
 		margin: 0 auto;  
 	  }
 	   
@@ -366,16 +370,17 @@
 			border: 1px solid blue;
 			width: 100%;
 			padding: 1em 0;
+			margin-bottom: 20px;
 			
 		}
 	
 		
 	    .nav_con {
-			max-width: 100%;
+			
 			border: 1px solid black;
 	   	width: 100%;
 		margin: 0 auto;
-		padding: 1em 1em;
+		padding: 1em 0;
 			
 		}
 		
@@ -387,16 +392,21 @@
 			}
 			
 			.main_nav {
-				
+				float: right;
+				margin-right:  50px;
 				width: 40%;
-				margin-left: 230px;	
+				
 			}
 			
 			.name {
-			
-				margin-left: 120px;
+			  float: left;
+			  line-height: 6px;
+			  margin-left: 60px;
+			  
 			}
 		 
+		    
+				
 		  
 	    
 	   
@@ -405,7 +415,7 @@
 		  max-width: 100%;
 	      border: 1px solid tomato;
 		  margin: 0 auto;
-		  width: 90%;
+		  width: 100%;
  		  margin-top: 1em;
 		 
 		  
@@ -414,21 +424,45 @@
 		 
 	       .profile  p {
 	      text-align: left;
-		  margin-right: 30px;
-		  padding: 5px 1px;
+		  margin-left: 55px;
+		  padding: 2px 1px;
+		  width: 40%
 		 }
 		 
-		  .me,
-		  .profile p {
-			
-			width: 40%; 
-		  }
+		
 		  
 		  .me {
-			  margin-right: 210px;
+			  margin-right: 55px;
+			  width: 40%;
 		  }
-	
-	 
+	    
+		 .title {
+			 margin-top: 48px;
+			 padding: 4px 0;
+		 }
+	         
+			 .pics p {
+				 line-height: 1.50;
+			 }
+			 
+	     
+			.pics li {
+			width: 30%;	
+			float: right;
+			max-width: 44%;
+			margin-right: 26px;
+			}
+			  
+		  .container {
+			  width: 90%;
+			  margin-top: 60px;
+		  }
+		  
+	   .low_para {
+		   padding: 10px 0;
+		   line-height:1.25em;
+			 
+	   }
 	 }
    
     .clearfix::after {
