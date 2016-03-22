@@ -170,30 +170,31 @@
 			
 		}
 	   
-	   .profile {
-		  max-width: 100%;
-		   border: 1px solid black;
+	   .profile,
+	          p {
+           width: 100%;
+		   
 		   margin: 0 auto;
 		   margin-top: 10px;
+		   text-align: center;
 	   }
 	   
 	   
-	   .me {
-		  
-		   margin-left:50px;
-		   margin-top: 5px;
-		   padding: 2px 1px;
-		   
-		   max-width: 60%;
-	   }
+	    .me {
+			width: 50%;
+			margin: 12px;
+			padding: 10px;
+			
+		}
 	   
 	   
 	   
 	    .profile p {
-			width: 100%;
-		  padding: 2px 2px;
+			width: 50%;
+		  padding: 5px 2px;
+		  line-height: 1.30em;
 		
-		  text-align: center;
+		
 			
 		}
 	    
@@ -203,9 +204,28 @@
 			
 			 .container {
 			 margin: 0 auto;
-			 width: 60%;
+			 width: 100%;
 			 text-align: center;
 		 }
+		 
+		 
+		 	.contact {
+				text-transform: uppercase;
+				font-size: 0.75rem;
+				letter-spacing: .012em;
+				
+			}
+			
+			
+		   .low_para {
+			   width: 60%;
+			   padding-top: 6px;
+			   padding-bottom: 4px;
+			   margin-top: 8px;
+			   margin-bottom: 16px;
+			   font-size: 1.125rem;
+		   }
+		 
 		    #phone + p {
 				display: inline-block;
 			}
@@ -232,11 +252,11 @@
 			
 		}
 	  
-		 .main_footer p {
-			 position: relative;
-			 margin: 0 auto;
-			 padding: 1.5em 0;
-		     left: 125px;
+		
+			
+			 
+			 
+		     
 		 }
 	     
 		  #button {
@@ -274,7 +294,7 @@
 	 
 	  
 	  .img_container {
-		width: 80%;
+		width: 100%;
 		max-width: 1150px;
 		margin: 0 auto;
 		border: 1px solid black;  
@@ -282,6 +302,7 @@
 	     .main_head {
 			 border: 1px solid black;
 			 width: 100%;
+			 max-width: 1100px;
 			 margin: 0 auto;
 			 margin-bottom: 5px;
 		
@@ -310,18 +331,18 @@
 	     
 	 .profile {
 			width: 100%;
+			max-width: 1120px;
 		   border: 1px solid black;
 	        margin: 0 auto;
 		}
 		
 		.me {
-			display: inline-block;
+			
 			float: right;
-			width: 40%;
-		   max-width:40%;
+			width: 30%;
 		   margin-top: 17px;
 		   margin-bottom: 50px;
-		   margin-right: 15px;
+		   margin-right: 55px;
 			
 		}
 		
@@ -329,12 +350,12 @@
 		
 		
 		.profile p {
-			display: inline-block;
-			float: left;
-		margin-left:18px;
-		width:49%;
+			
+		margin-left: 85px;	
+		
+		width: 50%;
 		text-align: left;
-		padding: 0 2px;
+		
 		}
 		 
 		
@@ -348,20 +369,20 @@
 		.title {
 			border: 1px solid black;
 		}
-		  
-		  
-			   
-			   
+		
+		
 		
 		   
-		   
 		  .pics li {
-			  width: 50%;
+			 
+			  width: 42%;
 			  float: right;
-			  max-width: 40%;
 			 margin-right: 45px;
+			 
 			  
 		  }
+		  
+		  
 		  
 		  .main_footer {
 			  margin: 0 auto;
@@ -377,19 +398,31 @@
 			
 			visibility: visible;
 		}
+		
+		#footer_name {
+			float: left;
+			margin-left: 80px;
+		}
 	
 		#footer_nav,
 		#footer_nav li {
 		  float: right;
+		  margin-right: 30px;
 		  }
 		
 		 #footer_name,
 		 #footer_nav,
 		 #footer_nav li {
 		  display: inline-block;	 
+		
 			 
 		 }
 		 
+		 #footer_nav li a {
+			display: block;
+			text-decoration: none;
+			color: black; 
+		 }
 		 
 		 
 		
