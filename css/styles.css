@@ -348,11 +348,58 @@
 		.title {
 			border: 1px solid black;
 		}
+		  
+		  
+			   
+			   
+		
+		   
+		   
+		  .pics li {
+			  width: 50%;
+			  float: right;
+			  max-width: 40%;
+			 margin-right: 45px;
+			  
+		  }
+		  
+		  .main_footer {
+			  margin: 0 auto;
+			  border: 1px solid black;
+		  }
+		  
+		
+		#but_box {
+		 visibility: hidden;	
+		}
+		
+		#footer_nav li {
+			
+			visibility: visible;
+		}
+	
+		#footer_nav,
+		#footer_nav li {
+		  float: right;
+		  }
+		
+		 #footer_name,
+		 #footer_nav,
+		 #footer_nav li {
+		  display: inline-block;	 
+			 
+		 }
+		 
+		 
+		 
+		
+		
+		
 		
    }
    
    
-     @media (min-width: 1024px ) {
+               @media (min-width: 1024px ) {
 	   
 	      #wrap {
 			 width: 90%;
