@@ -355,22 +355,23 @@
      @media (min-width: 1024px ) {
 	   
 	      #wrap {
-			 width: 100%;
+			 width: 90%;
 			 margin: 0 auto;
 			 max-width: 1100px;
 		  }
 	 
 	    .img_container {
 		width: 100%;
-		max-width: 1100px;
+		max-width: 1200px;
 		margin: 0 auto;  
 	  }
 	   
 	    .main_head {
 			border: 1px solid blue;
-			width: 100%;
+			width:  90%;
 			padding: 1em 0;
 			margin-bottom: 20px;
+			max-width: 1200px;
 			
 		}
 	
@@ -412,10 +413,10 @@
 	   
 	   
 	   .profile  {
-		  max-width: 100%;
+		  max-width: 90%;
 	      border: 1px solid tomato;
 		  margin: 0 auto;
-		  width: 100%;
+		  width: 90%;
  		  margin-top: 1em;
 		 
 		  
@@ -425,17 +426,17 @@
 	       .profile  p {
 			font-size: 1.25rem;   
 	      text-align: left;
-		  margin-left: 55px;
+		  margin-left: 70px;
 		  padding: 2px 0;
-		  width: 46%
+		  width: 40%
 		 }
 		 
 		
 		  
 		  .me {
 			  margin-top: 25px;
-			  margin-right: 55px;
-			  width: 40%;
+			  margin-right: 70px;
+			  width: 37%;
 		  }
 	    
 		 .title {
@@ -454,13 +455,17 @@
 			.pics li {
 			width: 30%;	
 			float: right;
-			max-width: 44%;
+			max-width: 90%;
 			margin-right: 26px;
 			}
 			  
 		  .container {
-			  width: 90%;
-			  margin-top: 60px;
+			  border: 1px solid black;
+			  width: 67%;
+		      max-width: 
+			  margin-top: 40px;
+			  margin-bottom: 30px;
+			  
 		  }
 		  
 	   .low_para {
@@ -470,13 +475,67 @@
 			 
 	   }
 	   
-	   
-	   
-	   
-	   
-	    #button {
-			display: none;	
+	    .main_footer {
+			width: 100%;
+			max-width:1200px;
+			margin: 0 auto;
+		  border: 1px solid black;	
 		}
+	   
+	   
+		
+	
+		#footer_nav li a {
+			text-decoration: none;
+			color: black;
+		}
+		
+		#footer_name {
+			float: left;
+			
+		}
+		
+		#footer_nav {
+			float:right;
+			text-transform: uppercase;
+			font-size: 0.75rem;
+		}
+		
+		#footer_name,
+		#footer_nav,
+		#footer_nav li {
+		     display: inline-block;	
+			 text-align: center;
+			 font-weight: bold; 
+		}
+		
+		 #footer_name {
+			 border: 1px solid #fff;
+			 background-color: #fff;
+			 border-radius: 5px;
+			 margin-left: 70px;
+		 }
+		 
+		
+	    
+		 
+		 
+	   	#footer_nav li {
+		border: 1px solid #fff;
+		  background-color: #fff;
+		  		  visibility: visible;	
+
+		  margin-right: 70px;
+		  border-radius: 5px;
+		}
+		
+	    
+		
+	    #but_box {
+			visibility: hidden;
+		}
+		
+		
 	 }
    
     .clearfix::after {
