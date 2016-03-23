@@ -82,6 +82,12 @@
 	
 }
   
+      .profile p {
+		  color: rgb(116, 105, 117 );
+		  
+	  }
+  
+  
    p {
 	font-size: 1em;
 	line-height:  1.2em;   
@@ -97,8 +103,14 @@
 	  .contact {
 		  text-align: center;
 		  font-size: 1em;
-		  
-	  }
+		 }
+		 
+		.low_para,
+		 .info_p,
+		 .info_e {
+			 color: rgb( 116, 105, 117);
+		}
+		 
 	   .me,
 	  .pics img {
 		  max-width: 100%;
@@ -258,6 +270,7 @@
 		 
 		  #button a {
 			  text-decoration: none;
+			  color: black;
 		  }
 		  
 		  
@@ -265,6 +278,10 @@
 			  background-color: rgb(231, 229, 234 );
 			  border: 1px solid rgb(231, 229, 234 );
    				}
+				
+				#button a:active {
+				  	color: rgb(122, 196, 187);
+				}
   
   
   
@@ -284,7 +301,15 @@
 				margin-bottom: 40px;
 			}
   
-        
+          #footer_name {
+			margin-left: 90px;  
+		  }
+  
+  			#but_box {
+			 margin-right: 90px;	
+			}
+  
+  
   
   }
   
