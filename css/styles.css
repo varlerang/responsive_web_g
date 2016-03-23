@@ -225,20 +225,18 @@
 			   margin-bottom: 16px;
 			   font-size: 1.125rem;
 		   }
-		 
-		    #phone + p {
-				display: inline-block;
-			}
-		     
-			 #email + p {
-				display: inline-block;
-			}
-			 
-			  
-			 #phone + p,
-			#email + p {
-				margin-left: 10px;
-			}
+		    
+		   .info_e, 
+	       .info_p {
+			 font-size: 1.125rem;
+			 padding: 2px 1px;
+		  }
+		  
+		   .info_p {
+			margin-bottom: 12px;   
+		   }
+		   
+				
 			
 			.main_footer {
 		     
@@ -252,17 +250,7 @@
 			
 		}
 	  
-		
-			
-			 
-			 
-		     
-		 }
-	     
-		  #button {
-			  position: relative;
-			  bottom: 47px;    
-		      left: 285px;
+		 #button {
 			  background-color: #fff;
 			  border-radius: 5px;
 			  border: 1px solid #fff;
@@ -279,6 +267,24 @@
    				}
   
   
+  
+          #footer_name {
+			  float: left;
+			  margin: 0;
+		  }
+		  
+		  #but_box {
+			  float: right;
+		  }
+  
+  			#footer_name,
+			#but_box {
+				display: inline-block;
+				margin-top: 70px;
+				margin-bottom: 40px;
+			}
+  
+        
   
   }
   
