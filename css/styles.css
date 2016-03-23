@@ -384,7 +384,7 @@
 			
 		margin-left: 85px;	
 		
-		width: 50%;
+		width: 70%;
 		text-align: left;
 		
 		}
@@ -413,7 +413,13 @@
 			  
 		  }
 		  
-		  
+		  .low_para {
+			text-align: center;
+			width: 70%;
+			line-height: 1.5em;  
+			padding: 2px 0;
+			margin-bottom: 30px;
+		  }
 		  
 		  .main_footer {
 			  margin: 0 auto;
@@ -431,23 +437,23 @@
 		}
 		
 		#footer_name {
-			float: left;
-			margin-left: 80px;
+			
+			margin: 0;
+			margin-left: 55px;
 		}
 	
-		#footer_nav,
-		#footer_nav li {
-		  float: right;
-		  margin-right: 30px;
-		  }
 		
-		 #footer_name,
+		
+		
 		 #footer_nav,
 		 #footer_nav li {
 		  display: inline-block;	 
-		
-			 
+		}
+		 
+		 #footer_nav {
+			
 		 }
+		 
 		 
 		 #footer_nav li a {
 			display: block;
