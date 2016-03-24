@@ -98,6 +98,12 @@
    .title {
 		  text-align: center;
 		  font-size: 1em;
+		  letter-spacing: .01em;
+		  padding-top: 4px;
+		  padding-bottom: 2px;
+		  margin-top: 45px;
+		  margin-bottom: 15px; 
+		  text-transform: uppercase;
 	  }
 	  
 	  .contact {
@@ -133,6 +139,14 @@
 			 .img_container img {
 			margin-bottom: 40px;
 		}
+	  
+	  
+	     #footer_nav li {
+			 text-transform: uppercase;
+			 font-size: 0.75rem;
+			 
+		 }
+	  
 	  
   /*mediq query for portable device*/
   
@@ -389,14 +403,6 @@
 		
 		}
 		 
-		
-		
-		
-		
-		
-		
-		
-		
 		.title {
 			border: 1px solid black;
 		}
@@ -421,48 +427,76 @@
 			margin-bottom: 30px;
 		  }
 		  
-		  .main_footer {
-			  margin: 0 auto;
-			  border: 1px solid black;
+		  
+		  
+		  .contact {
+			 margin-top: 35px;  
+			  
 		  }
 		  
+		.info_e {
+		 	margin-bottom: 40px;
+			
+		}
+		
+		.main_footer {
+			 
+			  border: 1px solid black;
+			   
+		  }
 		
 		#but_box {
 		 visibility: hidden;	
 		}
 		
+			#footer_nav,
 		#footer_nav li {
-			
 			visibility: visible;
 		}
 		
-		#footer_name {
-			
-			margin: 0;
-			margin-left: 55px;
-		}
-	
 		
-		
-		
-		 #footer_nav,
-		 #footer_nav li {
-		  display: inline-block;	 
-		}
-		 
-		 #footer_nav {
-			
-		 }
-		 
-		 
-		 #footer_nav li a {
+			 #footer_nav li a {
 			display: block;
 			text-decoration: none;
 			color: black; 
 		 }
-		 
-		 
 		
+	
+		
+	    #footer_name,
+		#footer_nav,
+		#footer_nav li {
+		   display: inline-block;	
+		   padding-top: 3px;
+		   
+		   margin-top: 12px;
+		   
+		}
+			
+			#footer_nav {
+				float: right;
+			}
+ 		
+		#footer_name {
+		  margin-left: 60px;
+		  margin-top: 25px;
+		  
+		}
+		
+		#footer_nav li {
+			text-align: center;
+			margin-left: 10px;
+			border: 1px solid #fff;
+			background-color: #fff;
+			border-radius: 5px;
+			padding: 4px 10px;
+			
+			
+		}
+		
+		#footer_nav {
+		  margin-right: 50px;	
+		}
 		
 		
 		
