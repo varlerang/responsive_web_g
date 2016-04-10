@@ -134,23 +134,28 @@
   }
 			   
 	 .img-container img {
-	     margin-bottom: 40px;
+	     margin-bottom: 35px;
   }
   
   
   
      
-	 .pics label p {
-		border: 1px solid black;
-		border-radius: 5px;
+	 .pics label ,
+	     .pics p {
+		
 		padding: 10px; 
 		letter-spacing: 0.050em;
 		word-spacing: 0.08em;
 	 }
 	 
-	  
-	     
+
+	 
+	/**^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^*/
+	 
 	
+	
+	
+	 /*&&&&&&&&&&&&&&&&&&&&&&&&&&&-CoNtAiNeR lOwEr-&&&&&&&&&&&&&&&&&*/
 	 
 	 
 		.info-p,
