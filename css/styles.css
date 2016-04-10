@@ -8,6 +8,7 @@
 	}
 	
 	#wrap {
+		border: 1px solid green;
 	 width: 100%;	
 	}
 	
@@ -29,16 +30,22 @@
 		   background-color: rgb( 247, 248, 247 );
 	   }
 			  #wrap {
-			   width: 100%;	
+			   width: 100%;
+			   padding: 0 2px 0 2px;	
+			  }
+			  header {
+			
+				padding: 0 2px 0 2px;  
 			  }
 	   nav {
-		   
+		  
+		   padding: 4px 2px 2px 2px;   
 	   }
 	   
-       .name {
+       header {
 		font-size: 1.25em;
 		margin: 0 auto;
-		padding: 1em 0;
+		padding: 2px;
 		margin-bottom: 2px;
 		}
 	
@@ -120,18 +127,45 @@
 			.pics li  {
 		   text-align: center;
   }
-
-	 .img-container p {
+  
+     .pics li,
+    .img-container p {
 		 margin: 25px 0;
   }
 			   
 	 .img-container img {
 	     margin-bottom: 40px;
   }
+  
+  
+  
+     
+	 .pics label p {
+		border: 1px solid black;
+		border-radius: 5px;
+		padding: 10px; 
+		letter-spacing: 0.050em;
+		word-spacing: 0.08em;
+	 }
+	 
+	  
+	     
+	
+	 
+	 
+		.info-p,
+		.info-e {
+			color: rgb( 116, 105, 117);
+			
+		} 
+			  
 			  
 	/*  $ MaIn_FoOtEr StYleS $ */
 	
-			      
+			       footer {
+					  padding: 4px 0; 
+				   }
+				   
 				    .main-footer {
 					color: #3a3a3a; 
 				  }
@@ -144,6 +178,10 @@
 					 
 				   }
 			  
+			  
+/* ^^^^^^^^^^^^^^^^@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@^^^^^^^^^^^^^^^^^^*/			  
+			  
+			  
 	  /*      mEdIa QuErY fOr PoRtAbLe DeViCeS         */
   
                         @media (min-width: 320px ) {
@@ -151,190 +189,293 @@
 							   #wrap {
 								 margin: 0 auto;
 								 width: 50%;
-								 max-width: 1000px;
+								 max-width: 790px;
 							 }
-	   
-							   .img-container { 
-							   width: 70%;  
-							   max-width: 1000px;
-							  margin: 0 auto;  
-							  
-							 }
-	 
-	.name,
-	.main-nav {
-	text-align: center;	
-	}
-	   
-	.name,
-	.main-nav,
-	.main-nav li {
-	 display: block;
-    }
-
-	.main-nav,
-	.main-nav li {
-	position: relative; 
-	 
-	}
-	
-	.main-nav li  {
-	width: 70%;
-	margin: 0 auto;
-	margin-bottom: 12px;
-	border: 1px solid #fff;
-	border-radius: 5px;
-	
-	}
-	
-					.profile,
-					  p {
-					width: 100%;
-					
-					margin: 0 auto;
-					margin-top: 10px;
-					text-align: center;
-					}
-					
-					   
-					.me {
-						width: 50%;
-						margin: 12px;
-						padding: 10px;
-					}
-	   
-					.profile p {
-					  width: 50%;
-					padding: 5px 2px;
-					line-height: 1.30em;
-				    }
-				  
-						  .title {
-							  margin-bottom: 50px;
-						  }
-			
-	 .container {
-	   margin: 0 auto;
-	   width: 100%;
-	   text-align: center;
-	}
- 
-     .contact {
-	  text-transform: uppercase;
-	  font-size: 0.75rem;
-	  letter-spacing: .012em;
-    }
-	
-			
-		   .low-para {
-			   width: 60%;
-			   padding-top: 6px;
-			   padding-bottom: 4px;
-			   margin-top: 8px;
-			   margin-bottom: 16px;
-			   font-size: 1.125rem;
-		   }
-		    
-		   .info-e, 
-	       .info-p {
-			 font-size: 1.125rem;
-			 padding: 2px 1px;
-		  }
-		  
-		   .info-p {
-			margin-bottom: 12px;   
-		   }
-		   
-			.info-e {
-			  margin-bottom: 45px;	
-			}
-			
-									  .main-footer {
-									   width: 100%;	
-									   margin: 0 auto;
-									  }
-									  
-									  #footer-nav {
-									  
-									  visibility:hidden;
-									  
-								  }
+							 
+							   header {
+								font-weight: bold;
 								
-								   #button {
-										background-color: #fff;
-										border-radius: 5px;
-										border: 1px solid #fff;
-								   }
-								   
-									#button a {
-										text-decoration: none;
-										color: black;
-									}
+							   }
+	                                   
+									.main-header header {
+										padding: 5px;
+										margin-top: 10px;
+										 text-align: center;
+											margin-bottom: 10px;  
+											  
+										  }
+												
+											     .main-header {
+													 padding: 10px;
+											     }
+													  
+														.main-header nav {
+															 width: 100%;
+															  padding: 2px;
+															  
+														  }
+											
+													 .main-header {
+														  padding: 2px;
+														   
+													   }
+													   .header,
+													  .main-nav {
+													  text-align: center;	
+													  }
+														 
+													  .header,
+													  .main-nav,
+													  .main-nav li {
+													   display: block;
+													  }
+												  
+													  .main-nav,
+													  .main-nav li {
+													  position: relative; 
+													   
+													  }
+													  
+													  .main-nav li  {
+													  width: 70%;
+													  margin: 0 auto;
+													  margin-bottom: 12px;
+													  border: 1px solid #fff;
+													  border-radius: 5px;
+													  
+													  }
+													  
+													  /* ``````````````````` pRoFiLe StYlEs `````````````````````` */
+													  
+	                                                         .profile {
+																 width: 90%;
+															 }
+															 
+															 
+																  .profile,
+																	p {
+																  width: 100%;
+																 
+																  margin: 0 auto;
+																  margin-top: 10px;
+																  text-align: center;
+																  }
+																  
+																	 
+														
+													              .profile p {
+																	  margin-top: 10px;
+																	  margin-bottom: 15px;
+																	width: 90%;
+																
+																	
+																  padding: 6px;
+																  line-height: 1.30em;
+																   font-size: 0.875rem
+																  }
+																  
+													/* ````````````````````````````````````````````````````````````````````*/	  
+													
+													
+													
+													
+													/*``````````````````````````` pRoFiLe ImAgE ````````````````````````*/											   					
+
+																  	   .me {
+																	  width: 100%;
+																	  margin: 0 auto;
+																	  padding: 10px;
+																		  }
+													
+													/* ````````````````````````````````````````````````````````````````````*/	  
+
+													
+													
+													
+													
+													/*``````````````````````````tItLe `````````````````````````````````````*/
+														  .title {
+														 margin-bottom: 50px;
+														 }
+								/*````````````````````````````````````````````````````````````````````````````````````````*/
+								
+								
+								
+								
+								
+								
+								/*```````````````````````````````````cOnTaInEr StYlEs```````````````````````````` */						  
+								
+										 .img-container { 
+											 width: 100%;  
+											margin: 0 auto;  
+											margin-bottom: 10px;
+										   }
+                                                   
+						   		/*"```````````````````````````````````````````````````````````````````````````*/
+							   
+							   
+							   
+							   /*````````````````````````````ConTaInEr TwO `````````````````````````````````*/
+							   
+							   .container {
+								   padding: 6px;
+								 margin: 0 auto;
+								 width: 100%;
+								 text-align: center;
+							  }
+						   
+						   
+						   /*```````````````````````````````````````````````````````````````````````````*/
+						  
+						  
+						  
+						  /*````````````````````````````````````CoNtAcT iNfO ```````````````````````*/ 
+						   
+							   .contact {
+								   padding: 4px;
+								   margin-top: 12px;
+								text-transform: uppercase;
+								font-size: 0.75rem;
+								letter-spacing: .012em;
+							  }
+	
+			
+							   .low-para {
+								   width: 90%;
+								   padding-top: 4px;
+								   padding-bottom: 4px;
+								   margin-top: 6px;
+								   margin-bottom: 16px;
+								   font-size: 0.875rem;
+							   }
+								
+							   .info-e, 
+							   .info-p {
+								 font-size: 0.875rem;
+								 padding: 2px 1px;
+								 letter-spacing: 0.06em;
+							  }
+							  
+							   .info-p {
+								margin-bottom: 12px;   
+							   }
+							   
+								.info-e {
+								  margin-bottom: 25px;
+								  font-weight: bold;	
+								}
+								
+						/*```````````````````````````````````````````````````````````````````````````````*/		
+												
+									/*`````````````````````fOoTeR``````````````````````````````*/
 									
-									#button:hover {
-										background-color: rgb(231, 229, 234 );
-										border: 1px solid rgb(231, 229, 234 );
-									}
-										  
-								    #button a:active {
-									    color: rgb(122, 196, 187);
-								    }
-							
-							
-							
-									#footer-name {
-										float: left;
-										margin: 0;
-									}
-									
-									#but-box {
-										float: right;
-									}
-							
-									  #footer-name,
-									  #but-box {
-										  display: inline-block;
-										  margin-bottom: 40px;
-								    }
-							
-									#footer-name {
-									  margin-left: 90px; 
-									  margin-top: 45px;
-									}
-									
-									#but-box {
-									  margin-right: 80px;	
-									}
-      }
+												
+												footer {
+												width: 100%;
+												padding: 4px;
+												
+												margin: 0 auto;
+												margin-top: 40px;
+												text-align: center;
+												}
+												
+												header {
+												letter-spacing: 0.09em;	
+												}
+															
+												              .main-footer  {
+																 width: 100%;	
+																 margin: 0 auto;
+																}
+																    .navf,
+															footer .unorderf {
+																visibility:hidden;
+																float: left;
+															}
+														       .navf {
+																width: 45%;
+																margin-right: 30px;
+															   }
+															   
+													     	  #button {
+																  background-color: #fff;
+																  border-radius: 5px;
+																  border: 1px solid #fff;
+																  width:  80px;
+																  height: 20px;
+																  text-align: center;
+																  margin-top: 8px;
+																
+															 }
+															 
+															  #button a {
+																  text-decoration: none;
+																  color: black;
+															  }
+															  
+															  #button:hover {
+																  background-color: rgb(231, 229, 234 );
+																  border: 1px solid rgb(231, 229, 234 );
+															  }
+																	
+														     #button a:active {
+																  color: rgb(122, 196, 187);
+															  }
+													  
+													  
+													  
+															  #footer-name {
+															   visibility: visible;  
+													           font-size: 0.75rem;
+															   letter-spacing: 0.06em;
+														       margin-top: 6px;
+															  }
+													
+															  
+													
+													
+													        
+										        	#button,
+													#footer-name  {
+													  display: inline-block;
+													  margin-bottom: 10px;
+													
+													
+													}
+															  
+												footer button a {
+													font-size:12px;
+													
+												}
+													      
+												
+												
+						}
   
   
                      @media (min-width: 768px ) {
 						 
 						 
 									#wrap {
+										border: 1px solid green;
 									 margin: 0 auto;
 									 width: 100%;
-									 max-width: 1200px;
+									 max-width: 1050px;
 									}
 	 
-									 .img-container {
-									  width: 100%;
-									  max-width: 1150px;
-									  margin: 0 auto;
-									}
-									   .main-head {
+	 							
+	 
+									   .main-header {
 										   width: 90%;
-										   max-width: 1100px;
+										 
 										   margin: 0 auto;
 										   margin-bottom: 5px;
 									   }
 									
-			        .nav-con      {
-			         margin: 0 auto;
-					 width: 70%;
-					 margin-bottom: 15px;
-					 padding: 1em 1.2em;  
-				     }
+			              header {
+							letter-spacing: 0.09em;  
+						  }
 				   
 				    .main-nav li {
 			         display: inline-block;
@@ -345,7 +486,7 @@
 	    .profile {
 		 padding: 5px;
 		  width: 90%;
-		  max-width: 1120px;
+		
 		  margin: 0 auto;
 		}
 		
@@ -363,126 +504,229 @@
 		width: 70%;
 		text-align: left;
 		}
-		 
-	                   .pics li {
+		       .title {
+				font-size: 1.125rem;   
+				 letter-spacing: 0.02em;  
+			   }
+			   
+			   	 .img-container {
+				     width: 90%;
+					 margin: 0 auto;
+					}
+			   
+	                  .img-container .pics li {
 			             width: 42%;
 			             float: right;
 			             margin-right: 45px;
+						 max-width: 700px;
 			           }
-		  
+		  							.container {
+									width: 80%;	
+									margin-bottom: 20px;
+									}
+									
 											  .low-para {
 												text-align: center;
 												width: 70%;
 												line-height: 1.5em;  
 												padding: 2px 0;
 												margin-bottom: 35px;
+												font-size: 1rem;
 											  }
 											  
 											           .contact {
 														 margin-top: 50px;  
+														 font-size: 1.125rem;
+														 letter-spacing: 0.02em;  
+
 													   }
+													   
+													       info-p.
+														   info-e {
+															font-size: 0.875rem;
+															letter-spacing: 0.17em;   
+														   }
 		  												
 																.info-e {
+																	font-weight: bold;
 																 	margin-bottom: 50px;
 																}
 		
-																 #but-box {
-																   visibility: hidden;	
+																#button {
+																   visibility: hidden;
 																  }
-		
-												  #footer-nav,
-												  #footer-nav li {
-													  visibility: visible;
-												  }
+												
+															
+														footer {
+														padding: 10px;
+														width: 75%;
+														}
+														    
+												   
+													.navf {
+														visibility: visible;	
+														width: 100%;	
+														margin-top: 30px;  
+														padding-top: 15px;
+													}
+														 
+													
+														  .unorderf,
+														  .unorderf li  {
+															  visibility: visible;
+														  }
+														
+												
+												
+										  
+													   
+												   #footer-name,
+												     .unorderf,
+													 
+													  .unorderf li {
+														  display: inline-block;
+													  }
+														
+											
 												  
-								           #footer-nav li a {
+												 .unorderf li {
+													  text-align: center;
+													  margin-left: 10px;
+													  border: 1px solid #fff;
+													  background-color: #fff;
+													  border-radius: 5px;
+													  padding: 4px 10px;
+													  font-size: 0.875rem;		
+													  							
+              											
+											       }
+																
+										 .unorderf li a {
 											  display: block;
 											  text-decoration: none;
 											  color: black; 
 										   }
 		
-										  #footer-nav li:hover {
+										 .unorderf li:hover {
 											background-color: rgb(231, 229, 234 );
 											border: 1px solid rgb(231, 229, 234 );
 									       }
-		
-										  #footer-name,
-										  #footer-nav,
-										  #footer-nav li {
-											 display: inline-block;	
-											 padding-top: 3px;
-											 margin-top: 12px;
-										  }
-											  
-										  #footer-nav {
-											  float: right;
-											  margin-right: 50px;
-										  }
- 		
-							#footer-name {
-							  margin-left: 80px;
-							  margin-top: 25px;
-							  
-							}
-		
-			#footer-nav li {
-				text-align: center;
-				margin-left: 10px;
-				border: 1px solid #fff;
-				background-color: #fff;
-				border-radius: 5px;
-				padding: 4px 10px;
-		}
-	}
-       
+		                                
+									 
+										
+										
+										#footer-name {
+									    font-size: 0.875rem;
+										margin-top: 5px;
+										letter-spacing: 0.09em;
+										float: left;
+										}
+										
+					footer .unorderf {
+						float: right;
+					}
+					
+					
+						
+										
+				}
+      
+	  		/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/					
+	  
+	   
 	     @media (min-width: 1024px ) {
 	   
 								  #wrap {
 									 width: 90%;
 									 margin: 0 auto;
 									 max-width: 1100px;
-								  }
-			   
-				  .img-container {
-				  width: 100%;
-				  max-width: 1200px;
-				  margin: 0 auto;  
-				}
-	   
-	.main-head {
-		width:  90%;
-		padding: 1em 0;
-		margin-bottom: 20px;
-		max-width: 1100px;
+									 padding: 4px;
+  						          }
+								  
 		
+	/*````````````````````````MaIn HeAdEr`````````````````````````````````````*/	
+	   
+	
+	
+	.main-header {
+		
+		width: 92%;
+		padding: 4px 4px;
+		margin-top: 15px;
+		margin: 0 auto;
 	}
+	
+	
+	
+	
+	/*````````````````````````````````````````````````````````````````````````````````*/
+	
 
-		           .nav-con {
-					width: 100%;
-					margin: 0 auto;
-					padding: 1em 0;
-				   }
+		       /*```````````````````````````````````````HeAdEr StYlEs```````````````````````````````````*/    
 				  
-				   .name,
-				   .main-nav,
-					.main-nav li {
-					   display: inline-block;
-				   }
-			
-					  .main-nav {
-						  float: right;
-						  margin-right:  50px;
-						  width: 40%;
-					  }
+		
+				  
+				    header {
+				   
+					font-size:1.25rem;	
+					font-weight: bold;
+					letter-spacing: 0.04em;
+				    float: left;
+					
+					}
 					  
-					  .name {
-						float: left;
-						line-height: 6px;
-						margin-left: 60px;
+					
+					
+					 
+				     .navt,
+					 header,
+					
+					  .main-nav,
+					 .main-nav li {
 						
-					  }
+						display: inline-block;
+					    margin-top: 5px;
+						margin-bottom: 5px;
+						
+					 }
+				
+					.main-nav,
+				   .main-nav li {
+					float: right; 
+					text-align: center;
+					
+				   }
+					  
+					.main-nav {
+					width: 40%;	
+					
+					}
+					
+				  
+				      .main-nav li a {
+						   font-size: 0.75rem;
+						   font-weight: bold;
+						   letter-spacing: 0.06em;
+						  
+					   }
+					   
+					
+							
+								
+								
+							
+						 
+					
+				
+					  
+					  
+					  /*````````````````````````````````````````````````````````````````````*/
 		 
-		    							.profile  {
+		    							
+										
+										
+										
+										.profile  {
 										  max-width: 90%;
 										  margin: 0 auto;
 										  width: 90%;
@@ -512,12 +756,19 @@
 								 letter-spacing: .03em;
 								 text-transform: uppercase;
 							 }
+							 
+							 	   
+							  .img-container {
+							  width: 100%;
+							  max-width: 1200px;
+							  margin: 0 auto;  
+							}
 								 
 				   .pics p {
 					 line-height: 1.50;
 				   }
 			 
-	               .pics li {
+	              .img-container .pics li {
 					  width: 30%;	
 					  float: right;
 					  max-width: 90%;
@@ -534,47 +785,81 @@
 														   font-size: 1.25rem;
 														   padding: 10px 0;
 														   line-height:1.25em;
-															 
+														   width: 50%;
+														   letter-spacing: 0.06em;
+														   word-spacing: 0.06em; 
 													   }
-	   
-										.main-footer {
-											width: 90%;
-											max-width: 1100px;
+													   .info-p,
+														.info-e {
+														font-size: 1rem;	
+															 letter-spacing: 0.09em;
+														   word-spacing: 0.06em; 
+														}
+	                                            
+												
+										
+										footer {
+										width: 100%;	
 										}
-	   
-	   				#footer-nav li a {
+	   					
+								
+								footer .navf {
+									margin: 0 auto;
+									margin-top: 45px;
+								}
+					
+					  
+					  
+	   				
+					.unorderf li a {
 					  text-decoration: none;
 			          color: black;
 		          }
 		
-					#footer-name {
-				  }
+				
 		
-					#footer-nav {
+				.unorderf {
 						text-transform: uppercase;
-						font-size: 0.75rem;
+					
 				  }
 					
-					
-					#footer-nav,
-					#footer-nav li {
+				   #footer-name,
+					.unorderf,
+					.unorderf li {
 						 display: inline-block;	
-						 text-align: center;
 						 font-weight: bold; 
-						
+						 font-size: 0.75rem;
+						 
+						 
 				  }
+				  
+					    #footer-name {
+									 
+									  visibility: visible;
+									  font-size: 1rem;
+									  float: left;
+									  margin-left: 45px;
+								  }
 					
 					#footer-nav li {
-						
-					border: 1px solid #fff;
-					background-color: #fff;
-					visibility: visible;	
-					border-radius: 5px;
-				  }
-					
-	    #but-box {
+						border: 1px solid #fff;
+						background-color: #fff;
+						visibility: visible;	
+						border-radius: 5px;
+				    }
+				  
+				   
+		    .unorderf {
+				float: right;
+				margin-right: 45px;
+			}
+				   
+			
+		#but-box {
 		  visibility: hidden;
+		  
 	    }
+		
 	}
    
     .clearfix::after {
