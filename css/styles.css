@@ -437,6 +437,7 @@
 													           font-size: 0.75rem;
 															   letter-spacing: 0.06em;
 														       margin-top: 6px;
+															   line-height: 1.5em;
 															  }
 													
 															  
@@ -447,7 +448,7 @@
 													#footer-name  {
 													  display: inline-block;
 													  margin-bottom: 10px;
-													
+													 
 													
 													}
 															  
